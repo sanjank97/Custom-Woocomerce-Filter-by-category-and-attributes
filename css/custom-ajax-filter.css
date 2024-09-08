@@ -1,0 +1,61 @@
+
+.ajax-loader {
+    display: none; /* Hidden by default */
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 9999;
+    text-align: center;
+    padding-top: 20%;
+}
+.ajax-loader img {
+    width: 50px;
+    height: 50px;
+}
+            
+.customShopwrap{
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1920px;
+    gap: 30px;
+    margin-top: 45px;
+}
+.customShopwrap .container{
+    width: calc(100% - 400px);
+    max-width: 100%;
+}
+.customShopwrap .sidebarFilter{
+    width: 400px;
+    padding: 30px;
+    background: #f2f2f2;
+}   
+.woocommerce-attribute-list{
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 0px;
+    padding: 0 0;
+} 
+.clearall{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 600;
+    color: #000000;
+    font-size: 13px;
+    padding: 1px 10px;
+    font-family: sans-serif;
+    border-radius: 30px;
+    text-decoration: underline;
+}
+.customShopwrap form{
+ position: relative;
+}
+.remove-filter{
+    font-size: 22px;
+    position: relative;
+    left: 5px;
+    top: 3px;
+}
